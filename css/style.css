@@ -1,6 +1,6 @@
 
 .navbar {
-	background-color: #3C3C3C;
+	background-color: #D3D3D3;
 }
 
 .navbar-nav {
@@ -25,6 +25,11 @@
   display: block;
 }
 
+.img responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -39,13 +44,9 @@
 }
 
 
-
-
-/*=========================
-  Icons
- ================= */
-
-/* footer social icons */
+.social-network-social-circle{
+	vertical-align: right;
+}
 ul.social-network {
 	list-style: none;
 	display: inline;
@@ -118,4 +119,12 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-circle a {
  background-color: #D3D3D3;   
+}
+
+.icoFacebook {
+	align-content: right;
+}
+
+h1{
+	text-align: center;
 }
