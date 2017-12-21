@@ -13,8 +13,10 @@
 }
 
 .navbar-nav{
-	color: white;
+	color: #fff;
+	font-family: 'Bungee', cursive;
 }
+
 
 .navbar-toggler-right {
 	position: relative;
@@ -119,7 +121,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .social-circle a {
- background-color: #D3D3D3;   
+ background-color: #c27255;   
 }
 
 .icoFacebook {
@@ -130,11 +132,24 @@ h1{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-family: 'Bungee', cursive;
+	color: #fff;
 }
 
 p{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 12pt;
 }
 
 
@@ -151,6 +166,13 @@ p{
 	color: #fff;
   }
   
+  h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Bungee', cursive;
+	color: #fff;
+}
+
   h3{
 	text-align: center;
 	margin-top: 10px;
@@ -181,3 +203,26 @@ function myMap() {
     var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 
+body{
+	background-color: #3fa397;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c27255;
+	border-color: #fff;
+	font-family: 'Bungee', cursive;
+	border-radius: 0%;
+	padding: 10px;
+	margin: 5px;
+}
+
+label.col-2.col-form-label{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-control {
+	border-radius: 0%;
+	border-color: #c27255;
+}
