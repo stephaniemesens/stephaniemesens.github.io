@@ -59,6 +59,8 @@ ul.social-network {
 	padding: 0;
 	margin-bottom:10px;
 }
+
+
 ul.social-network li {
 	display: inline;
 	margin: 5px;
@@ -169,13 +171,15 @@ h4{
 	padding-bottom: 10px;
 	background-color: #c27255;	
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
   }
-  
   h2{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-family: 'Bungee', cursive;
 	color: #fff;
+	text-align: center;
 }
 
   h3{
@@ -239,7 +243,7 @@ a:focus,a:hover{
 	text-decoration: none;
 }
 
-label.col-2.col-form-label{
+label.col-sm-2.col-form-label{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -262,7 +266,10 @@ p strong {
 }
 
 @media screen and (max-width: 480px) {
-	#gebak {
+	.koffie {
+		text-align: center;
+	}
+	.gebak {
 		text-align: center;
 	}
 	.foodtext {
@@ -318,4 +325,15 @@ p strong {
 	.drinks {
 		padding-bottom: 50px;
 	}
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
