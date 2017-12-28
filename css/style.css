@@ -275,59 +275,6 @@ p strong {
 	.gebak {
 		text-align: center;
 	}
-	.foodtext {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.round-images h2 {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.contacttitle {
-		padding-left: 30px;
-	}
-	.contacttext {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.btn-primary.aboutusbutton {
-		margin-left: 40px;
-	}
-	.btn-primary.contactbutton {
-		margin-left: 30px;
-	}
-	.form-control {
-		margin-left: -50px;
-	}
-	.aboutustext {
-		padding-right: 30px;
-	}
-	.bookustitle {
-		padding-left: 30px;
-	}
-	.bookustext {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.upcomingeventstitle {
-		padding-left: 30px;
-	}
-	.upcomingeventstext {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.logo {
-		padding-left: 20px;
-	}
-	div#koffie {
-		text-align: center;
-	}
-	.dessert {
-		padding-bottom: 50px;
-	}
-	.drinks {
-		padding-bottom: 50px;
-	}
 }
 
 .hover01 figure img {
